@@ -1,0 +1,1 @@
+m_draw_health = 0;
