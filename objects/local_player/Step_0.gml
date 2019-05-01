@@ -39,6 +39,12 @@ if( x < mouse_x ) {
 	image_xscale = -1;
 }
 
+if( y < mouse_y ) {
+	sprite_index = local_sprite;
+} else if( y > mouse_y ) {
+	sprite_index = local_back;
+}
+
 if( ( vertical_speed == 0 ) && ( horizontal_speed == 0 ) ) {
 	m_flags = PlayerFlags.STANDING;
 } else {
@@ -53,3 +59,4 @@ switch( m_flags ) {
 	default:
 		break;
 }
+

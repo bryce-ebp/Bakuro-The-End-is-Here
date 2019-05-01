@@ -9,6 +9,7 @@ m_max_ammo = 10;
 
 m_walk_speed = 1;
 
+m_kills = 0;
 
 m_max_health = 100;
 m_health = 100;

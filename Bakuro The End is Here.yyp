@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0b095152-1740-47fd-a4ea-21e0bede4474",
+            "Value": {
+                "id": "e08221af-488a-4980-8acd-5fe819a09112",
+                "resourcePath": "objects\\start_wave_button\\start_wave_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b6b5ec0-a940-4d62-9d08-d367be14e24c",
             "Value": {
                 "id": "b70fe947-d93c-4ab0-aa02-1a2549d349ba",
@@ -116,6 +124,14 @@
                 "id": "5f07d60e-76b1-4225-b16e-f0e38659593e",
                 "resourcePath": "objects\\main_menu_\\main_menu_.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "30e3c2fd-e5c6-4b7c-a47d-279067e0de74",
+            "Value": {
+                "id": "4ecfcf73-7cc9-45fb-82c1-a71a7dc90f53",
+                "resourcePath": "sprites\\local_back\\local_back.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -203,6 +219,14 @@
             "Value": {
                 "id": "3cb85246-eccc-4b79-bf6d-ee18881f072b",
                 "resourcePath": "objects\\game_paused\\game_paused.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69d58826-f0f0-451e-9d9d-416cc04fb22d",
+            "Value": {
+                "id": "210f73b5-888c-4f2f-9ecb-20e0061c39e5",
+                "resourcePath": "objects\\enemy_spawner\\enemy_spawner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -388,6 +412,14 @@
                 "id": "072589e9-e851-43a3-b92f-b1eeef73e7c9",
                 "resourcePath": "objects\\local_health\\local_health.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ac89de01-11a6-47dc-a6f4-007459db3924",
+            "Value": {
+                "id": "0656c865-bd82-40eb-87fe-cb0f6ca3b0e4",
+                "resourcePath": "sprites\\start_wave\\start_wave.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
