@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "46afa0c4-5b0c-4158-8439-add47af26faa",
+            "Value": {
+                "id": "3a8266ac-a9f3-4d5c-b6a9-bbf7f9bc2c14",
+                "resourcePath": "objects\\grid\\grid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4d357333-1964-4491-8af6-4a52708dbfb9",
             "Value": {
                 "id": "3099192f-02f1-49d1-b11a-8ebe904e7f78",
@@ -188,6 +196,14 @@
                 "id": "1b00206e-9420-4e3c-8f8d-ca9813022582",
                 "resourcePath": "sprites\\shop_closed_img\\shop_closed_img.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4f03cb28-a126-4781-b473-6523d1a36e9b",
+            "Value": {
+                "id": "275cef7d-74e6-47b1-b5d1-8a2e4f4158fe",
+                "resourcePath": "objects\\bullet\\bullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {

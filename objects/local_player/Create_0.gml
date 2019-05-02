@@ -1,5 +1,5 @@
 // init variables
-m_damage = 0;
+m_damage = 40;
 
 m_clips = 0;
 m_max_clips = 3;
