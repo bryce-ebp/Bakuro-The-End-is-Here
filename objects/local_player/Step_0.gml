@@ -11,8 +11,10 @@ horizontal_speed = move_horizontal * m_walk_speed;
 move_vertical = key_down - key_up;
 vertical_speed = move_vertical * m_walk_speed;
 
-if( place_meeting( x + horizontal_speed, y, wall_parent ) ) {
-	while( !place_meeting( x + sign( horizontal_speed ), y, wall_parent ) )
+if( place_meeting( x + horizontal_speed, y, wall_parent )
+	|| place_meeting( x + horizontal_speed, y, enemy_parent ) ) {
+	while( !place_meeting( x + sign( horizontal_speed ), y, wall_parent )
+		&& !place_meeting( x + sign( horizontal_speed ), y, enemy_parent ) )
 		x += sign( horizontal_speed );
 		
 	horizontal_speed = 0;
@@ -21,8 +23,10 @@ if( place_meeting( x + horizontal_speed, y, wall_parent ) ) {
 x += horizontal_speed;
 
 
-if( place_meeting( x, y + vertical_speed, wall_parent ) ) {
-	while( !place_meeting( x, y + sign( vertical_speed ), wall_parent ) ) 
+if( place_meeting( x, y + vertical_speed, wall_parent )
+	|| place_meeting( x, y + vertical_speed, enemy_parent ) ) {
+	while( !place_meeting( x, y + sign( vertical_speed ), wall_parent )
+		&& !place_meeting( x, y + sign( vertical_speed ), enemy_parent ) ) 
 		y += sign( vertical_speed );
 	
 	vertical_speed = 0;
@@ -30,8 +34,33 @@ if( place_meeting( x, y + vertical_speed, wall_parent ) ) {
 
 y += vertical_speed;
 
-if( place_meeting( x, y, next_room) ) 
-	room_goto_next( );
+if( instance_exists( enemy_parent ) ) {
+	if( mouse_check_button( mb_left ) && ( m_ammo <= m_max_ammo ) && ( m_ammo > 0 )
+			&& ( m_shoot_time < m_shoot_timer ) ) {
+		with( instance_create_layer( x, y, "Instances", bullet ) ) {
+			image_angle = point_direction( x, y, mouse_x, mouse_y );
+			direction = image_angle;
+			speed = 2;
+		}
+	
+		m_shoot_time = m_shoot_timer + 60;
+		--m_ammo;
+	}
+	
+	++m_shoot_timer;
+}
+
+if( m_clips > 0 && m_ammo <= 0 && keyboard_check( 0x52 ) ) {
+	m_reloading = true;
+	m_reload_time = m_reload_timer + 30;
+}
+++m_reload_timer;
+
+if( m_reload_time < m_reload_timer && m_reloading ) {
+	m_reloading = false;
+	m_ammo = m_max_ammo;
+}
+
 
 if( x < mouse_x ) {
 	image_xscale = 1;
@@ -60,3 +89,6 @@ switch( m_flags ) {
 		break;
 }
 
+if( m_health <= 0 ) {
+	room_goto( menu );
+}

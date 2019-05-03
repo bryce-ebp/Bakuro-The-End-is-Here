@@ -1,6 +1,19 @@
 if( !instance_exists( zombie ) && shop.m_open ) {
-	m_enemies_to_spawn = random_range( ( m_waves_passed + 1 ) * 2,
-	( m_waves_passed + 1 ) * 4 );
+	m_enemies_to_spawn = ( m_waves_passed + 1 ) * 2;
+	
+	switch( room ) {
+		case level1:
+			m_max_waves = 2;
+			break;
+			
+		case level2:
+			m_max_waves = 3;
+			break;
+		
+		default:
+			m_max_waves = 0;
+			break;
+	}
 	
 	local_player.m_kills = 0;
 	m_enemies_spawned = 0;
@@ -9,14 +22,17 @@ if( !instance_exists( zombie ) && shop.m_open ) {
 } 
 
 if( !shop.m_open ) {
-	if( ( m_time < m_timer ) && ( m_enemies_spawned < m_enemies_to_spawn ) ) {
+	if( ( m_time < m_timer ) && ( m_enemies_spawned < m_enemies_to_spawn ) && ( m_waves_passed < m_max_waves ) ) {
 		instance_create_layer( x, y, "Instances", zombie );
 		++m_enemies_spawned;
-		m_time += 60;
+		m_time = m_timer + 60;
 	}
 
 	++m_timer;
-	if( local_player.m_kills == m_enemies_to_spawn ) 
+	if( !instance_exists( zombie ) ) {
 		++m_waves_passed;
+		shop.m_wave_over = true;
+	}
+	
 }
 	
