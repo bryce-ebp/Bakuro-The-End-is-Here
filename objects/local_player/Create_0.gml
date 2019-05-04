@@ -1,11 +1,13 @@
 // init variables
 m_damage = 40;
 
-m_clips = 1;
+m_clips = 2;
 m_max_clips = 3;
 
 m_ammo = 10;
 m_max_ammo = 10;
+
+globalvar g_coins;
 
 m_walk_speed = 1;
 

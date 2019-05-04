@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0385c0ca-0a2f-4356-af12-5a0c8c7dea06",
+            "Value": {
+                "id": "91ae3ef0-16e1-48dc-ac28-fa0c6cbfbd6f",
+                "resourcePath": "objects\\coin_dropped\\coin_dropped.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b095152-1740-47fd-a4ea-21e0bede4474",
             "Value": {
                 "id": "e08221af-488a-4980-8acd-5fe819a09112",
@@ -103,11 +111,27 @@
             }
         },
         {
+            "Key": "2ae60b81-d86a-4322-b234-947171fb599f",
+            "Value": {
+                "id": "b0630948-ad2e-432e-a166-45f317ef422d",
+                "resourcePath": "rooms\\shopping_room\\shopping_room.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2e1110ca-d84d-4d9d-950a-a561a4443d79",
             "Value": {
                 "id": "051d3444-5313-4308-a8c2-afb76365bb72",
                 "resourcePath": "rooms\\level1\\level1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "2fd69ade-d432-40cf-a926-c54e7559acc3",
+            "Value": {
+                "id": "fb6a4f98-0c2c-4bf3-8c97-f7d5abdfcac0",
+                "resourcePath": "sprites\\menu_back\\menu_back.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -227,6 +251,14 @@
             "Value": {
                 "id": "47e65936-c952-408c-ad4a-de8250b0cbbf",
                 "resourcePath": "sprites\\level1_over\\level1_over.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6018e040-d035-45da-a702-53c093d3030f",
+            "Value": {
+                "id": "39cafce8-b0f2-4a98-81f3-aaa0fb2eda52",
+                "resourcePath": "sprites\\coin\\coin.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -619,6 +651,14 @@
             "Value": {
                 "id": "d188f6a2-99a3-4bf5-bf62-d86eede78af7",
                 "resourcePath": "objects\\powerup\\powerup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fbd2b0af-aacd-431c-81a1-3303c3eaa8ff",
+            "Value": {
+                "id": "1ea1da60-09e0-429b-b210-c6432e2e2429",
+                "resourcePath": "objects\\shop_handler\\shop_handler.yy",
                 "resourceType": "GMObject"
             }
         }

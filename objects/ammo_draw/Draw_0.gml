@@ -2,7 +2,6 @@ if( !instance_exists( local_player ) ) return;
 
 pos_x = local_player.x;
 pos_y = local_player.y - local_player.sprite_height;
-
 draw_sprite( ammo, -1, pos_x, pos_y );
 switch( local_player.m_ammo ) {
 	case 10: image_index = 0; break;
@@ -26,9 +25,10 @@ switch( local_player.m_ammo ) {
 			m_flip = !m_flip;
 			m_ammo_flash_time = m_ammo_flash_timer + 60;
 		}
+		
 		if( m_flip ) image_index = 10 
 		else image_index = 12;
-		
+	
 		break;
 }
 

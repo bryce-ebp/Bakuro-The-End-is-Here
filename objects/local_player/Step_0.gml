@@ -92,3 +92,9 @@ switch( m_flags ) {
 if( m_health <= 0 ) {
 	room_goto( menu );
 }
+
+if( place_meeting( x, y, coin_dropped ) ) {
+	nearest = instance_nearest( x, y, coin_dropped );
+	++g_coins;
+	instance_destroy( nearest );
+}

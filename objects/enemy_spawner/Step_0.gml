@@ -29,10 +29,5 @@ if( !shop.m_open ) {
 	}
 
 	++m_timer;
-	if( !instance_exists( zombie ) ) {
-		++m_waves_passed;
-		shop.m_wave_over = true;
-	}
-	
 }
 	

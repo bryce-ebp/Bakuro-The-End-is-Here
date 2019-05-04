@@ -23,5 +23,6 @@ if( m_speed == 0 )
 
 if( m_health <= 0 ) {
 	instance_destroy( );
+	instance_create_layer( x, y, "Instances", coin_dropped ); 
 	++local_player.m_kills;
 }
