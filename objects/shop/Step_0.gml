@@ -25,10 +25,10 @@ if( m_wave_over && (
 }
 
 if( m_open ) {
-	if( place_meeting( x, y, local_player ) ) {
-		m_draw_items = true;
+	if( place_meeting( x + 3, y + 3, local_player ) ) {
+		m_allow_purchase = true;
 	} else {
-		m_draw_items = false;
+		m_allow_purchase = false;
 	}
 	
 }

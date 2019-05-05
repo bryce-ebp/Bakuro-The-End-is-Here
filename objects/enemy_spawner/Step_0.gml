@@ -3,7 +3,7 @@ if( !instance_exists( zombie ) && shop.m_open ) {
 	
 	switch( room ) {
 		case level1:
-			m_max_waves = 2;
+			m_max_waves = 5;
 			break;
 			
 		case level2:

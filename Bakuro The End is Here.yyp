@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1fb5dea2-e44c-4871-bcdb-802673da9ab2",
+            "Value": {
+                "id": "df36582e-e257-4d40-be71-47f9dd5d39e4",
+                "resourcePath": "objects\\shop_health\\shop_health.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "24906a47-20bd-4012-bb86-fa447b5d704f",
             "Value": {
                 "id": "673ab894-13cb-450f-8f91-9f89ea1135e8",
@@ -107,14 +115,6 @@
             "Value": {
                 "id": "0a539e44-5dd1-4b05-b476-7f4b154722ba",
                 "resourcePath": "rooms\\level2\\level2.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "2ae60b81-d86a-4322-b234-947171fb599f",
-            "Value": {
-                "id": "b0630948-ad2e-432e-a166-45f317ef422d",
-                "resourcePath": "rooms\\shopping_room\\shopping_room.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -412,6 +412,14 @@
                 "id": "29c222a6-6c61-4c46-9173-fb7341a0971e",
                 "resourcePath": "sprites\\fountain\\fountain.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "99f75abb-31b7-40a4-b78d-786f7aa5fa29",
+            "Value": {
+                "id": "72bb331b-1a20-4c18-ad09-bb648ee6d31b",
+                "resourcePath": "objects\\shop_ammo\\shop_ammo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
