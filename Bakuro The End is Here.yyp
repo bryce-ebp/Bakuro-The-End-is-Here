@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "115a506f-cf16-4969-8e5b-0c3f659f33d1",
+            "Value": {
+                "id": "31b443e6-ba40-44d1-bccf-75baf32041b7",
+                "resourcePath": "objects\\draw_coins\\draw_coins.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1425f1a6-320d-47c7-a302-a2eb43914f75",
             "Value": {
                 "id": "b3c896c8-6f0c-4501-ba7a-c4ed1b397770",
@@ -92,6 +100,14 @@
                 "id": "52f2439c-50a4-4ff4-bd9f-49feffa85c0b",
                 "resourcePath": "objects\\resume_game\\resume_game.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1c6ccc4b-c024-4dd1-8143-71d6cefa2746",
+            "Value": {
+                "id": "2be4c90c-10fc-469d-b2b4-e9934bc11faf",
+                "resourcePath": "sprites\\menu2\\menu2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -415,6 +431,14 @@
             }
         },
         {
+            "Key": "90742206-3ed1-4145-b299-4a03887c3fba",
+            "Value": {
+                "id": "66f0ff1e-8e05-4aba-ae0e-c61512ec058c",
+                "resourcePath": "objects\\tutorial_helper\\tutorial_helper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "90a2365d-89f5-4ac9-9615-72a3b11149a9",
             "Value": {
                 "id": "5e65f495-d9ab-49e6-bc0a-dd019bf4342b",
@@ -492,6 +516,14 @@
                 "id": "760e594b-6748-4b65-af74-73688814a721",
                 "resourcePath": "views\\a25330b6-465a-4c9b-809f-b7b7abe72f4a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a6b5f78a-f8cd-435c-ac68-3cba37ef92f6",
+            "Value": {
+                "id": "8ff84420-6289-49e6-9823-ea7e629fc258",
+                "resourcePath": "objects\\attack_draw\\attack_draw.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -599,6 +631,14 @@
             }
         },
         {
+            "Key": "c3978434-42d2-4bd2-ac69-b96529eb98c7",
+            "Value": {
+                "id": "bb9a002f-25ca-4e78-adbc-cbddd0ecc1e4",
+                "resourcePath": "fonts\\font_arial\\font_arial.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "c96312d8-0cef-4367-b3c6-c59c9c1e758e",
             "Value": {
                 "id": "36ae1171-0442-4d60-9871-3faae5b7b113",
@@ -675,6 +715,22 @@
             "Value": {
                 "id": "c8b83eb8-1a6f-4fa3-be7e-45034fc93342",
                 "resourcePath": "objects\\ammo_draw\\ammo_draw.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d987713b-d975-4217-832b-82c4f27eb033",
+            "Value": {
+                "id": "a8ae9bc0-5c26-4ae0-be9d-0289191b30dc",
+                "resourcePath": "sprites\\attack\\attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dbc2b04d-89f7-412d-8179-883fa0d3f95c",
+            "Value": {
+                "id": "7552035b-4cd2-47f6-a141-06b970ffd365",
+                "resourcePath": "objects\\ammo_reserves\\ammo_reserves.yy",
                 "resourceType": "GMObject"
             }
         },

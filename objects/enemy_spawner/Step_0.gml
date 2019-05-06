@@ -3,11 +3,11 @@ if( !instance_exists( enemy1 ) && shop.m_open ) {
 	
 	switch( room ) {
 		case level1:
-			m_max_waves = 5;
+			m_max_waves = 3;
 			break;
 			
 		case level2:
-			m_max_waves = 3;
+			m_max_waves = 5;
 			break;
 		
 		default:

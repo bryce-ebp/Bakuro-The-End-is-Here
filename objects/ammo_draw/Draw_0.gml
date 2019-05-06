@@ -29,7 +29,7 @@ switch( local_player.m_ammo ) {
 		if( m_flip ) image_index = 10 
 		else image_index = 12;
 	
-		break;
+			break;
 }
 
 ++m_ammo_flash_timer;

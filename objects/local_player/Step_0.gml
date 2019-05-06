@@ -59,6 +59,7 @@ if( m_clips > 0 && m_ammo <= 0 && keyboard_check( 0x52 ) ) {
 if( m_reload_time < m_reload_timer && m_reloading ) {
 	m_reloading = false;
 	m_ammo = m_max_ammo;
+	--m_clips;
 }
 
 
