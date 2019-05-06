@@ -2,7 +2,7 @@
     "id": "90a2365d-89f5-4ac9-9615-72a3b11149a9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "draw_controls",
+    "name": "move_down_draw",
     "eventList": [
         
     ],

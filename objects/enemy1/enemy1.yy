@@ -2,7 +2,7 @@
     "id": "9e34e578-c435-41d6-9226-71c5b22884e2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "zombie",
+    "name": "enemy1",
     "eventList": [
         {
             "id": "3069275b-edfe-40b6-9225-644060e89d37",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c10a348d-dc7d-4007-b10f-ca443be25f97",
+    "spriteId": "88e299e0-6a47-4a45-8934-75260ec416d6",
     "visible": true
 }

@@ -170,7 +170,7 @@
             "Key": "39aa0193-ae8f-4463-9786-1fc69d1ef4b2",
             "Value": {
                 "id": "19e25c05-3048-4183-a038-351a911d01b3",
-                "resourcePath": "sprites\\ingame_controls\\ingame_controls.yy",
+                "resourcePath": "sprites\\move_down\\move_down.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -196,6 +196,14 @@
                 "id": "b6b53feb-5670-4492-bf0f-ef0c45aaffd2",
                 "resourcePath": "objects\\next_room\\next_room.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4332f5d3-abf8-4e42-a1a6-bbecedb84be8",
+            "Value": {
+                "id": "bf1bb1c7-c0bb-4875-8141-2f47d7a632cc",
+                "resourcePath": "sprites\\move_right\\move_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "77513872-1d42-4365-af9d-e5c190c4611c",
+            "Value": {
+                "id": "8426c99b-ca0b-4049-b02e-89a8a2ca8e2c",
+                "resourcePath": "objects\\move_left_draw\\move_left_draw.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "78a768c2-3e9d-4398-a480-70699d36e1a0",
             "Value": {
                 "id": "3e40790d-8c21-4b40-bc59-229a391fbbfd",
@@ -335,6 +351,14 @@
             }
         },
         {
+            "Key": "7d828c87-1021-4c8e-aca6-232994fd6941",
+            "Value": {
+                "id": "d8ae36b5-47cd-4a43-bd4a-2815e2cc2112",
+                "resourcePath": "sprites\\move_left\\move_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "82759538-39e4-4ecd-a693-e579ef758f1f",
             "Value": {
                 "id": "d5a3132f-fecc-4682-8c38-552276f7930d",
@@ -347,6 +371,14 @@
             "Value": {
                 "id": "3f31527f-d9b0-4b9f-bfd7-fc1b3d7abb4a",
                 "resourcePath": "sprites\\paused_text\\paused_text.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "88e299e0-6a47-4a45-8934-75260ec416d6",
+            "Value": {
+                "id": "f90607f3-33d6-4eb1-8b27-24c2189933b0",
+                "resourcePath": "sprites\\enemy_1\\enemy_1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -386,7 +418,7 @@
             "Key": "90a2365d-89f5-4ac9-9615-72a3b11149a9",
             "Value": {
                 "id": "5e65f495-d9ab-49e6-bc0a-dd019bf4342b",
-                "resourcePath": "objects\\draw_controls\\draw_controls.yy",
+                "resourcePath": "objects\\move_down_draw\\move_down_draw.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -442,7 +474,7 @@
             "Key": "9e34e578-c435-41d6-9226-71c5b22884e2",
             "Value": {
                 "id": "4aef7b46-4a43-4d92-a5fb-136dafee7ed2",
-                "resourcePath": "objects\\zombie\\zombie.yy",
+                "resourcePath": "objects\\enemy1\\enemy1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -503,6 +535,14 @@
             }
         },
         {
+            "Key": "b6de2e7f-2169-495d-94e6-8358ba794e11",
+            "Value": {
+                "id": "5ba2fe25-7254-4e2e-82cc-ac5d3762db1e",
+                "resourcePath": "objects\\move_right_draw\\move_right_draw.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b72f4e90-c58a-406d-8d43-caf00c0bc68a",
             "Value": {
                 "id": "ed88f099-3219-465f-921e-2bafb1a104b9",
@@ -551,10 +591,26 @@
             }
         },
         {
+            "Key": "c373d4cd-589e-431c-b77e-1a99d377bd01",
+            "Value": {
+                "id": "61f9d02c-4075-44d7-a031-f6bee59b1eb3",
+                "resourcePath": "objects\\move_up_draw\\move_up_draw.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c96312d8-0cef-4367-b3c6-c59c9c1e758e",
             "Value": {
                 "id": "36ae1171-0442-4d60-9871-3faae5b7b113",
                 "resourcePath": "sprites\\controls_room\\controls_room.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cbb218f9-8385-4b3b-be52-4089cf72a4e7",
+            "Value": {
+                "id": "e4bc2763-5660-4074-91bf-0761f981689e",
+                "resourcePath": "sprites\\move_up\\move_up.yy",
                 "resourceType": "GMSprite"
             }
         },

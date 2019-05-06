@@ -1,4 +1,4 @@
-if( !instance_exists( zombie ) && shop.m_open ) {
+if( !instance_exists( enemy1 ) && shop.m_open ) {
 	m_enemies_to_spawn = ( m_waves_passed + 1 ) * 2;
 	
 	switch( room ) {
@@ -23,7 +23,7 @@ if( !instance_exists( zombie ) && shop.m_open ) {
 
 if( !shop.m_open ) {
 	if( ( m_time < m_timer ) && ( m_enemies_spawned < m_enemies_to_spawn ) && ( m_waves_passed < m_max_waves ) ) {
-		instance_create_layer( x, y, "Instances", zombie );
+		instance_create_layer( x, y, "Instances", enemy1 );
 		++m_enemies_spawned;
 		m_time = m_timer + 60;
 	}
