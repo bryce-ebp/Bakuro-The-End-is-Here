@@ -5,12 +5,12 @@
     "name": "resume_game",
     "eventList": [
         {
-            "id": "daa4d1f3-ed0d-4fd4-85b5-88e530c82af0",
+            "id": "62b23019-9dc4-421b-9978-68acbb733a73",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 7,
             "eventtype": 6,
             "m_owner": "16812a39-97df-4e63-bdd3-c5fc78609a0d"
         }

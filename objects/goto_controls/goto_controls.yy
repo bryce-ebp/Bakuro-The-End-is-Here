@@ -5,12 +5,12 @@
     "name": "goto_controls",
     "eventList": [
         {
-            "id": "1d38415c-0d9f-4eaa-aab8-d2399b5ffab0",
+            "id": "fc41b685-47cf-4076-b648-78b160ae582f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 7,
             "eventtype": 6,
             "m_owner": "ddfbed0d-987a-4fe8-8835-e33d3d59121f"
         }

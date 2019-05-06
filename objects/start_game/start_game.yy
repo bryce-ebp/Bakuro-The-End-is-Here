@@ -5,12 +5,12 @@
     "name": "start_game",
     "eventList": [
         {
-            "id": "5884e9ac-0c13-40e8-bb82-fc95c5a50b41",
+            "id": "f4b9fe97-5829-4712-93b4-1050f72acad9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 7,
             "eventtype": 6,
             "m_owner": "94427b4a-94e4-4548-8b83-5fa4e39837e9"
         }
