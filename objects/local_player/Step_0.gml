@@ -50,7 +50,8 @@ if( instance_exists( enemy_parent ) ) {
 	++m_shoot_timer;
 }
 
-if( m_clips > 0 && m_ammo <= 0 && keyboard_check( 0x52 ) ) {
+// 0x52 is R as seen on ms virtualkeys
+if( m_clips > 0 && m_ammo <= 9 && keyboard_check( 0x52 ) ) {
 	m_reloading = true;
 	m_reload_time = m_reload_timer + 30;
 }
@@ -91,6 +92,8 @@ switch( m_flags ) {
 }
 
 if( m_health <= 0 ) {
+	g_coins = 0;
+	instance_destroy( );
 	room_goto( menu );
 }
 

@@ -1,10 +1,23 @@
-/*if( !shop.m_open ) {
-	if( ( shop.m_time < shop.m_timer ) && ( shop.m_enemies_spawned >= shop.m_enemies_to_spawn ) 
-		&& ( shop.m_waves_passed >= shop.m_max_waves ) ) {
+if( !instance_exists( enemy_parent ) && shop.m_open ) {
+	enemy_spawner.m_boss_spawned = false;
+}
+
+if( !shop.m_open ) {
+	if( ( enemy_spawner.m_waves_passed == enemy_spawner.m_max_waves - 1 ) && !enemy_spawner.m_boss_spawned
+		&& !enemy_spawner.m_boss_spawned ) {
+		switch( room ) {
+			case level2:
+			instance_create_layer( x, y, "Instances", boss1_ );
+			enemy_spawner.m_boss_spawned = true;
+			++enemy_spawner.m_enemies_spawned;
+				break;
+				
+			case level3:
+			instance_create_layer( x, y, "Instances", boss1_ );
+			enemy_spawner.m_boss_spawned = true;
+			++enemy_spawner.m_enemies_spawned;
+				break;
+		}
 		
-		// instance_create_layer( x, y, "Instances", enemy );
-		// ++m_enemies_spawned;
-		shop.m_time = shop.m_timer + 60;
 	}
-	
-}*/
+}
