@@ -1,1 +1,1 @@
-room_goto( level2 );
+room_goto( level1 );

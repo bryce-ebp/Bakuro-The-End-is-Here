@@ -25,7 +25,7 @@ if( m_wave_over && (
 }
 
 if( m_open ) {
-	if( place_meeting( x + 3, y + 3, local_player ) ) {
+	if( distance_to_object( local_player ) < 20 ) {
 		m_allow_purchase = true;
 	} else {
 		m_allow_purchase = false;

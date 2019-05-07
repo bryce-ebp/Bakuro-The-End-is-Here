@@ -3,15 +3,18 @@ if( !instance_exists( enemy_parent ) && shop.m_open ) {
 	
 	switch( room ) {
 		case level1:
+			// 2 normal waves
 			m_max_waves = 3;
 			break;
 			
 		case level2:
+			// 3 normal waves 1 boss
 			m_max_waves = 4;
 			m_boss = true;
 			break;
 		
 		case level3:
+			// 4 normal waves 1 boss
 			m_max_waves = 5;
 			m_boss = true;
 			break;
