@@ -1,8 +1,8 @@
 {
-    "id": "1fb5dea2-e44c-4871-bcdb-802673da9ab2",
+    "id": "1d675a5b-66bf-453f-a228-d5d8ed4d0fd1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "shop_health",
+    "name": "level3_outline_top",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "1c43cb34-698d-414a-b1a3-0cd317831fed",
     "visible": true
 }
