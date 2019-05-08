@@ -5,6 +5,7 @@ if( !instance_exists( enemy_parent ) && shop.m_open ) {
 		case level1:
 			// 2 normal waves
 			m_max_waves = 3;
+			m_boss = false;
 			break;
 			
 		case level2:
